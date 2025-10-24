@@ -1,0 +1,45 @@
+img{
+    width: 1500px;
+    height: 300px;
+    border-radius: 20px;
+    cursor: -webkit-grabbing;
+    display: block;
+}
+body{
+    direction: rtl;
+}
+img:hover{
+    box-shadow: 3px 6px 35px;
+}
+#lavazem{
+font-family: 'Courier New', Courier, monospace ;
+background-color: darkred;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+margin: 10px;
+border-radius: 50px;
+cursor: pointer;
+}
+#lavazem:hover{
+    box-shadow: 3px 6px 35px;
+}
+
+#safe , #noor , #taz , #egz , #soti , #tio , #amni , #darba , #ma , #sabt{
+    border-radius: 50px;
+     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace ;
+    margin-right: 45px;
+    cursor: pointer;
+}
+#safe:hover , #noor:hover , #taz:hover , #egz:hover , #soti:hover , #tio:hover , #amni:hover , #darba:hover , #ma:hover , #sabt:hover{
+    box-shadow: 3px 6px 35px;
+    color: brown;
+    
+}
+#jadid{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    
+}

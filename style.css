@@ -1,0 +1,85 @@
+/* تنظیمات کلی صفحه */
+body {
+    font-family: "Vazirmatn", sans-serif;
+    background: linear-gradient(135deg, #3a0000, #000000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    margin: 0;
+}
+
+/* جعبه اصلی لاگین */
+.login-container {
+    background: rgb(77, 32, 32);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+/* عنوان */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* ورودی‌ها */
+.input-group {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #450000;
+    outline: none;
+}
+
+/* دکمه ورود */
+button {
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #410000;
+}
+
+/* متن ثبت‌نام */
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
