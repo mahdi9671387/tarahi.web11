@@ -1,13 +1,14 @@
 /* تنظیمات کلی صفحه */
 body {
     font-family: "Vazirmatn", sans-serif;
-    background: linear-gradient(135deg, #3a0000, #000000);
+    background: linear-gradient(135deg, #6b6b6b, #460606);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     direction: rtl;
     margin: 0;
+    
 }
 
 /* جعبه اصلی لاگین */

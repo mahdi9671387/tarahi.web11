@@ -6,7 +6,9 @@ img{
     display: block;
 }
 body{
+    background-image: url(poster_00deba5d-57c6-4861-927a-8753d5df8d58.jpeg);
     direction: rtl;
+    
 }
 img:hover{
     box-shadow: 3px 6px 35px;
